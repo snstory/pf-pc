@@ -1,0 +1,269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=euc-kr" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Game4u</title>
+<link rel="stylesheet" href="/common/css/content.css" type="text/css" media="all" />
+<!--[if (IE 5)|(IE 6)]>
+<link rel="stylesheet" href="/common/css/ie6.only.css" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" href="/common/css/ie7.only.css" type="text/css" />
+<![endif]-->
+<script src="/common/js/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="/common/js/jquery.Game4u.ex.1.0.js" type="text/javascript"></script>
+<script src="/common/js/common.js" type="text/javascript"></script>
+<!--[if (IE 5)|(IE 6)]>
+<script src="/common/js/jquery.pngFix.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+onLoadAdd(function(){
+	$(document).pngFix();
+});
+//]]>
+</script>
+<![endif]-->
+</head>
+
+<body>
+<div id="wrap">
+	<div class="wrap_in">
+
+		<!-- header -->
+		<div id="header">
+			<h1 class="logo"><a href="/"><img src="/images/common/logo.gif" alt="Game4u" /></a></h1>
+
+			<a href="#" class="clab"><img src="/images/common/Lab433.gif" alt="4:33 Creative Lab" /></a>
+
+			<!-- gnb [글로벌 메뉴] -->
+			<div class="gnb">
+				<ul>
+					<li><a href="/"><img src="/images/common/btns/gnb_01.gif" alt="home" /></a></li>
+					<li class="bar"><img src="/images/common/icons/bar_01.gif" alt="" /></li>
+
+					<!-- 로그인 전 -->
+					<li><a href="/member/login.html"><img src="/images/common/btns/gnb_02.gif" alt="login" /></a></li>
+					<li class="bar"><img src="/images/common/icons/bar_01.gif" alt="" /></li>
+					<li><a href="/member/join_01.html"><img src="/images/common/btns/gnb_03.gif" alt="join us" /></a></li>
+					<li class="bar"><img src="/images/common/icons/bar_01.gif" alt="" /></li>
+					<!-- //로그인 전 -->
+
+					<!-- 로그인 후 -->
+					<li><a href="#"><img src="/images/common/btns/gnb_02_out.gif" alt="logout" /></a></li>
+					<li class="bar"><img src="/images/common/icons/bar_01.gif" alt="" /></li>
+					<li><a href="/member/member_02.html"><img src="/images/common/btns/gnb_03_edit.gif" alt="회원정보수정" /></a></li>
+					<li class="bar"><img src="/images/common/icons/bar_01.gif" alt="" /></li>
+					<!-- //로그인 후 -->
+
+					<li><a href="/etc/etc_01.html"><img src="/images/common/btns/gnb_04.gif" alt="sitemap" /></a></li>
+				</ul>
+			</div>
+			<!-- //gnb [글로벌 메뉴] -->
+
+			<!-- lnb [로컬메뉴] -->
+			<div class="lnb">
+				<ul pageNo="1">
+					<li><a href="/games/games_01.html"><img src="/images/common/btns/lnb_01.gif" alt="4:33 Games" /></a></li>
+					<li><a href="/comu/comu_01.html"><img src="/images/common/btns/lnb_02.gif" alt="4:33 Community" /></a></li>
+					<li><a href="/supt/supt_01.html"><img src="/images/common/btns/lnb_03.gif" alt="4:33 Support" /></a></li>
+				</ul>
+			</div>
+			<!-- //lnb [로컬메뉴] -->
+		</div>
+		<!-- //header -->
+		
+		<hr />
+
+		<!-- container -->
+		<div id="container">
+			<!-- visualZone -->
+			<div class="visualZone">
+				<div class="picarea">
+					<div class="movezone">
+						<ul>
+							<li><a href="#"><img src="/images/common/game_list/tm_01.jpg" width="960" height="152" alt="" /></a></li>
+						</ul>
+					</div>
+
+					<a href="#" class="lt"><img src="/images/common/btns/tm_lt.png" alt="이전보기" /></a>
+					<a href="#" class="gt"><img src="/images/common/btns/tm_gt.png" alt="다음보기" /></a>
+
+					<div class="movecount">
+						<a href="#"><img src="/images/common/btns/tm_s_out.png" alt="" /></a>
+						<a href="#"><img src="/images/common/btns/tm_s_on.png" alt="" /></a>
+						<a href="#"><img src="/images/common/btns/tm_s_out.png" alt="" /></a>
+						<a href="#"><img src="/images/common/btns/tm_s_out.png" alt="" /></a>
+					</div>
+				</div>
+			</div>
+			<!-- //visualZone -->
+
+			<!-- 상단 라운드 ↓ -->
+			<span class="colgroup_t"></span>
+
+			<!-- colgroup -->
+			<div class="colgroup">
+				<div class="snb">
+					<div class="snb_in">
+
+						<!-- 폴더별 적용영역 [타이틀이미지, 서브 메뉴] -->
+						<h3 class="dtitle"><img src="/images/games/title_01.gif" alt="4:33 Games" /></h3>
+
+						<ul class="menu" pageNo="1">
+							<li><a href="/games/games_01.html"><img src="/images/games/lt_01.gif" alt="On Service Games" /></a></li>
+							<li><a href="/games/games_01.html#Gm4CSplace"><img src="/images/games/lt_02.gif" alt="Coming Soon Games" /></a></li>
+						</ul>
+						<!-- //폴더별 적용영역 [타이틀이미지, 서브 메뉴] -->
+
+					</div>
+				</div>
+
+				<div class="rightside">
+					<div class="rightside_in">
+
+						<!-- 페이지별 적용영역 [페이지 타이틀, 페이지 경로] -->
+						<div class="pageinfo">
+							<h4 class="ptitle"><img src="/images/games/s_title_01.gif" alt="On Service  Games" /></h4>
+
+							<p class="path">
+								<a href="/" class="nobg">Home</a>
+								<a href="/games/games_01.html">4:33 Games</a>
+								<strong>On Service  Games</strong>
+							</p>
+						</div>
+						<!-- //페이지별 적용영역 [페이지 타이틀, 페이지 경로] -->
+
+						<div id="content">
+<!-- ===================================================== 페이지별 내용영역 =============================================== -->
+<p class="cmm01"><img src="/images/common/txt/pgment_01.gif" alt="4:33 Creative LABs 의 다양한 게임을 즐기세요!" /></p>
+
+<div class="gm01">
+	<ul class="gm01_ul">
+		<li>
+			<dl class="gm01_dl">
+				<dt class="blind">사용가능한 폰목록</dt>
+				<dd><a href="#"><img src="/images/common/icons/mcon_01.png" alt="앱스토어" /></a></dd>
+				<dd><a href="#"><img src="/images/common/icons/mcon_02.png" alt="안드로이드스토어" /></a></dd>
+				<dd><a href="#"><img src="/images/common/icons/mcon_03.png" alt="피처폰" /></a></dd>
+			</dl>
+			<p><a href="#"><img src="/images/common/game_list/on_01.jpg" alt="" /></a></p>
+			
+		</li>
+		<li>
+			<dl class="gm01_dl">
+				<dt class="blind">사용가능한 폰목록</dt>
+				<dd><a href="#"><img src="/images/common/icons/mcon_01.png" alt="앱스토어" /></a></dd>
+				<dd><a href="#"><img src="/images/common/icons/mcon_02.png" alt="안드로이드스토어" /></a></dd>
+				
+			</dl>
+			<p><a href="#"><img src="/images/common/game_list/on_02.jpg" alt="맞고" /></a></p>
+			<span class="gm01_hot"><img src="/images/common/icons/hot_50off.png" alt="Hot 50% off" /></span>
+		</li>
+		<li>
+			<dl class="gm01_dl">
+				<dt class="blind">사용가능한 폰목록</dt>
+				
+				<dd><a href="#"><img src="/images/common/icons/mcon_02.png" alt="안드로이드스토어" /></a></dd>
+				<dd><a href="#"><img src="/images/common/icons/mcon_03.png" alt="피처폰" /></a></dd>
+			</dl>
+			<p><a href="#"><img src="/images/common/game_list/on_03.jpg" alt="모로저택의 비밀" /></a></p>
+			
+		</li>
+		<li>
+			<dl class="gm01_dl">
+				<dt class="blind">사용가능한 폰목록</dt>
+				<dd><a href="#"><img src="/images/common/icons/mcon_01.png" alt="앱스토어" /></a></dd>
+				
+				
+			</dl>
+			<p><a href="#"><img src="/images/common/game_list/on_04.jpg" alt="할인의 달인" /></a></p>
+			
+		</li>
+	</ul>
+</div>
+
+<div class="gm02">
+	<div class="gm02_1" id="Gm4CSplace">
+		<span class="lt"></span>
+		<h4 class="gm02_2">
+			<span class="gm02_2_1">
+				<img src="/images/common/icons/hot_issue.gif" alt="Hot issue" />
+				<strong>Coming soon</strong>
+				<em>곧 출시될 4:33의 게임들입니다.</em>
+			</span>
+		</h4>
+		<span class="gt"></span>
+	</div>
+
+	<div class="gm02_3">
+		<span class="pic"><a href="#"><img src="../images/common/game_list/open_01.jpg" width="231" height="176" alt="" /></a></span>
+
+		<dl class="gm02_3_dl">
+			<dt>
+				<strong>대저택의 숨겨진 비밀 모로의 저택</strong>
+				<em>Scheduled to open</em>
+			</dt>
+			<dd>누구나 손쉽게 즐길수 있는 디펜스 게임! 크리스탈 디펜더즈!<br />인기 시뮬레이션 RPG인 &lt;파이널판타지 택틱스&gt; 시리즈의 작업과 캐릭터를 사용하여 더욱 친근감있게 게임을 진행할 수 있습니다.<br />적재적소에 캐릭터를 배치하여 몬스터로부터 크리스탈을 지켜내야 합니다.<br />전략을 세우는 재미에 푹 빠져보시기 바랍니다.</dd>
+		</dl>
+
+		<p class="gosite"><a href="#"><img src="/images/common/btns/gosite.gif" alt="사이트 바로가기" /></a></p>
+	</div>
+</div>
+<!-- ===================================================== //페이지별 내용영역 =============================================== -->
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!-- //colgroup -->
+
+			<!-- 하단 라운드 ↓ -->
+			<span class="colgroup_b"></span>
+
+		</div>
+		<!-- //container -->
+
+		<hr />
+
+		<!-- footer -->
+		<div id="footer">
+			<div class="footer_in">
+				<div class="ft_gnb">
+					<ul>
+						<li><a href="#"><img src="/images/common/btns/f_gnb_01.gif" alt="회사소개" /></a></li>
+						<li class="bar"><img src="/images/common/icons/bar_02.gif" alt="" /></li>
+						<li><a href="/etc/etc_02.html"><img src="/images/common/btns/f_gnb_02.gif" alt="이용약관" /></a></li>
+						<li class="bar"><img src="/images/common/icons/bar_02.gif" alt="" /></li>
+						<li><a href="/etc/etc_03.html"><img src="/images/common/btns/f_gnb_03.gif" alt="개인정보취급방침 및 청소년 보호정책" /></a></li>
+						<li class="bar"><img src="/images/common/icons/bar_02.gif" alt="" /></li>
+						<li><a href="/etc/etc_01.html"><img src="/images/common/btns/f_gnb_04.gif" alt="사이트맵" /></a></li>
+					</ul>
+				</div>
+
+				<div class="ft_fam">
+					<h2 class="blind">family site</h2>
+					<select name="familySite" id="familySite">
+						<option value="">433labs.com</option>
+					</select>
+				</div>
+
+				<div class="ft_copyr">
+					<dl class="blind">
+						<dt>4:33 CREATIVE LAB</dt>
+						<dd><address>서울시 금천구 가산동 345-9 SK트윈테크타워 A동</address></dd>
+						<dd><address>전화 : 1588-7155</address></dd>
+						<dd><address>팩스 : 02-6292-6009</address></dd>
+						<dd>Copyright 2010. 4:33 LABs. All Rights Reserved. Contact Us.</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<!-- //footer -->
+
+	</div>
+</div>
+</body>
+</html>

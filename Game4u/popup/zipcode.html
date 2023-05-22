@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=euc-kr" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Game4u</title>
+<link rel="stylesheet" href="/common/css/content.css" type="text/css" media="all" />
+<!--[if (IE 5)|(IE 6)]>
+<link rel="stylesheet" href="/common/css/ie6.only.css" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" href="/common/css/ie7.only.css" type="text/css" />
+<![endif]-->
+<script src="/common/js/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="/common/js/jquery.Game4u.ex.1.0.js" type="text/javascript"></script>
+<script src="/common/js/common.js" type="text/javascript"></script>
+<!--[if (IE 5)|(IE 6)]>
+<script src="/common/js/jquery.pngFix.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+onLoadAdd(function(){
+	$(document).pngFix();
+});
+//]]>
+</script>
+<![endif]-->
+
+<script type="text/javascript">
+	onLoadAdd(function(){ // 창 크기조절
+		var wGab=20;
+		var hGab=90;
+		var nW=$("#popupWrapElem").innerWidth()+wGab;
+		var nH=$("#popupWrapElem").innerHeight()+hGab;
+		window.resizeTo(nW, nH);
+	});
+</script>
+</head>
+
+<body>
+<div class="pp_wrap">
+	<div class="pp02_wp" id="popupWrapElem">
+		<div class="pp02_header">
+			<h1><img src="/images/popup/tt_03.gif" alt="우편번호검색" /></h1>
+		</div>
+
+		<div class="pp02_container">
+			<div class="pp02_content">
+<!-- ========================= 내용영역 ========================= -->
+<p class="pp04">검색하실 우편번호의 <strong>동/읍/면</strong> 의 이름을<br />입력하여 주십시오. 예) 양재동, 삼성동</p>
+
+<form method="post" action="#">
+	<fieldset>
+		<legend>주소 검색양식</legend>
+
+		<div class="pp02">
+			<span class="pp02_tt1"><img src="/images/popup/mt_01.gif" alt="동/읍/면" /></span>
+			<input type="text" name="id" id="id" class="fi_df_6 fi_16" />
+			<input type="image" src="/images/common/btns/pick.gif" alt="선택" />
+		</div>
+	</fieldset>
+</form>
+
+<p class="pp05"><img src="/images/popup/mt_02.gif" alt="해당주소를 선택하시면 자동입력됩니다." /></p>
+
+<div class="pp06">
+	<ul class="pp06_ul">
+		<li><a href="#"><span>[450-020]</span> 경기 평택시 합정동</a></li>
+		<li><a href="#"><span>[450-020]</span> 경기 평택시 합정동 1-361번지</a></li>
+		<li><a href="#"><span>[450-020]</span> 경기 평택시 합정동 1-361번지</a></li>
+		<li><a href="#"><span>[450-020]</span> 경기 평택시 합정동 1-361번지</a></li>
+		<li><a href="#"><span>[450-020]</span> 경기 평택시 합정동 1-361번지</a></li>
+		<li><a href="#"><span>[450-020]</span> 경기 평택시 합정동 1-361번지</a></li>
+		<li><a href="#"><span>[450-020]</span> 경기 평택시 합정동 1-361번지</a></li>
+		<li><a href="#"><span>[450-020]</span> 경기 평택시 합정동 1-361번지</a></li>
+		<li><a href="#"><span>[450-020]</span> 경기 평택시 합정동 1-361번지</a></li>
+	</ul>
+</div>
+
+<div class="pp02_btn">
+	<a href="#" onclick="window.close();return false;"><img src="/images/common/btns/close.gif" alt="닫기" /></a>
+</div>
+<!-- ========================= //내용영역 ========================= -->
+			</div>
+		</div>
+
+		<div class="pp02_footer"></div>
+	</div>
+</div>
+</body>
+</html>

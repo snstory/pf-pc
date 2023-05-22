@@ -1,0 +1,322 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>으라차차 - 농수산식품 교수학습지원센터</title>
+<link rel="stylesheet" href="../css/content.css" type="text/css" media="all" />
+<!--[if (IE 5)|(IE 6)]>
+<link rel="stylesheet" href="../css/ie6.only.css" type="text/css" />
+<![endif]-->
+<script src="../js/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="../js/jquery.classfarm.ex-1.0.js" type="text/javascript"></script>
+<script src="../js/common.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="wrap">
+
+	<div class="wrap_in">
+
+		<!-- ========== Str: 퀵메뉴 ========== -->
+		<div class="quickmenu" id="quickmenuElement"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="62px" height="333px">
+			<!-- <param name="movie" value="../flash/quickmenu.swf" /> -->
+			<param name="movie" value="../flash/quickmenu.gif" />
+			<param name="allowScriptAccess" value="sameDomain" />
+			<param name="flashvars" value="" />
+			<param name="loop" value="false" />
+			<param name="menu" value="false" />
+			<param name="quality" value="high" />
+			<param name="scale" value="noscale" />
+			<param name="bgcolor" value="#ffffff" />
+			<param name="wmode" value="transparent" />
+	
+			<!--[if !IE]> <-->
+			<object type="application/x-shockwave-flash" data="../flash/quickmenu.swf" width="62px" height="333px">
+				<param name="wmode" value="transparent" />
+				<p><img src="../flash/quickmenu.gif" width="62" height="333" alt="" /></p>
+			</object>
+			<!--> <![endif]-->
+		</object></div>
+		<!-- ========== End: 퀵메뉴 ========== -->
+
+		<!-- Str: header -->
+		<div id="header">
+			<!-- hd_logo -->
+			<h1 class="hd_logo"><a href="../main/main.html"><img src="../images/common/logo.gif" alt="으라차차 - 농수산식품 교수학습지원센터" /></a></h1>
+			
+			<!-- hd_gnb -->
+			<div class="hd_gnb">
+				<ul>
+					<!-- ↓ 로그인 혹은 로그아웃 -->
+					<li><a href="#"><img src="../images/common/btns/logout_g.gif" alt="로그아웃" /></a></li>
+					<li><a href="#" onclick="popupAbsMiddle({url:'../popup/login.html', width:600, height:400}); return false;"><img src="../images/common/btns/login_g.gif" alt="로그인" /></a></li>
+					<!-- ↑ 로그인 혹은 로그아웃 -->
+
+					<li><a href="../intro/intro_01.html"><img src="../images/common/btns/gnb_01.gif" alt="으라차차 소개" /></a></li>
+					<li class="bar"><img src="../images/common/icons/bar_01.gif" alt="" /></li>
+					<li><a href="../intro/intro_02.html"><img src="../images/common/btns/gnb_02.gif" alt="공지사항" /></a></li>
+					<li class="bar"><img src="../images/common/icons/bar_01.gif" alt="" /></li>
+					<li><a href="../intro/intro_03.html"><img src="../images/common/btns/gnb_03.gif" alt="찾아오시는 길" /></a></li>
+					<li class="bar"><img src="../images/common/icons/bar_01.gif" alt="" /></li>
+					<li><a href="../mypage/mypage_01.html"><img src="../images/common/btns/gnb_04.gif" alt="마이페이지" /></a></li>
+					<li class="bar"><img src="../images/common/icons/bar_01.gif" alt="" /></li>
+					<li><a href="../member/member_01.html"><img src="../images/common/btns/gnb_05.gif" alt="회원가입" /></a></li>
+					<li class="bar"><img src="../images/common/icons/bar_01.gif" alt="" /></li>
+					<li><a href="../etc/etc_04.html"><img src="../images/common/btns/gnb_06.gif" alt="사이트맵" /></a></li>
+				</ul>
+
+				<!-- Str: hd_search -->
+				<div class="hd_search">
+					<span><img src="../images/common/bg/bg_02_lt.gif" alt="" /></span>
+					<div class="sch_form">
+
+						<form method="post" action="../search/search.html">
+							<fieldset>
+								<legend>통합검색</legend>
+
+								<input type="text" name="search" id="search" class="inp01" />
+								<input type="image" src="../images/common/btns/go.gif" class="inp02" alt="검색" />
+							</fieldset>
+						</form>
+
+					</div>
+				</div>
+				<!-- End: hd_search -->
+
+			</div>
+
+			<!-- hd_lnb -->
+			<div class="hd_lnb"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="726px" height="63px">
+				<!-- <param name="movie" value="../flash/navi.swf" /> -->
+				<param name="movie" value="../flash/navi.gif" />
+				<param name="allowScriptAccess" value="sameDomain" />
+				<param name="flashvars" value="" />
+				<param name="loop" value="false" />
+				<param name="menu" value="false" />
+				<param name="quality" value="high" />
+				<param name="scale" value="noscale" />
+				<param name="bgcolor" value="#ffffff" />
+				<param name="wmode" value="transparent" />
+				
+				<!--[if !IE]> <-->
+				<object type="application/x-shockwave-flash" data="../flash/navi.swf" width="726px" height="63px">
+					<param name="wmode" value="transparent" />
+					<p><img src="../flash/navi.gif" width="726" height="63" alt="" usemap="#navImgMap" /></p>
+					<map name="navImgMap" id="navImgMap">
+						<area shape="rect" coords="32,3,143,42" href="../life/life_01.html" alt="식생활 교육자료" />
+						<area shape="rect" coords="148,4,261,42" href="../farm/farm_01.html" alt="농어촌 체험정보" />
+						<area shape="rect" coords="268,5,375,43" href="../teacher/teacher_01.html" alt="선생님 커뮤니티" />
+						<area shape="rect" coords="383,6,494,42" href="../edu/edu_01.html" alt="농어촌 교육자료" />
+						<area shape="rect" coords="501,7,600,42" href="../kid/kid_01.html" alt="어린이 놀이방" />
+						<area shape="rect" coords="605,8,723,42" href="../know/know_01.html" alt="농어촌 Q&amp;A" />
+					</map>
+				</object>
+				<!--> <![endif]-->
+			</object></div>
+
+		</div>
+		<!-- End: header -->
+
+		<!-- Str: container -->
+		<div id="container">
+
+			<!-- Str: colgroup -->
+			<div class="colgroup">
+
+				<!-- Str: snb -->
+				<div class="snb">
+				<!-- ====================== Str: 왼쪽메뉴영역 ====================== -->
+					
+					<!-- == Str: 식생활학습자료 == -->
+					<!-- ↓ 폴더별 타이틀 -->
+					<h2 class="sb_title"><img src="../images/ffeng/title_01.gif" alt="팜팜잉글리쉬" /></h2>
+
+					<div class="sb_menulist" sbno="3">
+						<ul>
+							<!-- Str: 폴더별 왼쪽메뉴 -->
+							<li>
+								<a href="../ffeng/ffeng_01_01.html"><img src="../images/ffeng/lt_01_off.gif" alt="팜팜자료실" /></a>
+
+								<dl>
+									<dd><a href="../ffeng/ffeng_01_01.html">초급</a></dd>
+									<dd><a href="../ffeng/ffeng_01_02.html">중급</a></dd>
+									<dd><a href="../ffeng/ffeng_01_03.html">고급</a></dd>
+								</dl>
+							</li>
+							<li><a href="../ffeng/ffeng_02.html"><img src="../images/ffeng/lt_02_off.gif" alt="과제자료실" /></a></li>
+							<li><a href="../ffeng/ffeng_03.html"><img src="../images/ffeng/lt_03_off.gif" alt="동영상자료실" /></a></li>
+							<!-- End: 폴더별 왼쪽메뉴 -->
+
+							<!-- ↓ 폴더별 왼쪽메뉴 하단 이미지 -->
+							<li class="btm"><img src="../images/ffeng/lt_btm.gif" alt="" /></li>
+						</ul>
+					</div>
+					<!-- == End: 식생활학습자료 == -->
+
+				<!-- ====================== End: 왼쪽메뉴영역 ====================== -->
+				</div>
+				<!-- End: snb -->
+
+				<!-- Str: content -->
+				<div class="sb_content">
+
+					<!-- ====================== Str: 페이지별 개별처리 영역 ====================== -->
+					<div class="cn_01">
+						<h2><img src="../images/ffeng/sb_title_03.gif" alt="동영상자료실" /></h2>
+
+						<p class="cn_02">
+							<a href="../main/main.html">Home</a>
+							<a href="../ffeng/ffeng_01_01.html" class="cen">팜팜잉글리쉬</a>
+							<strong>동영상자료실</strong>
+						</p>
+					</div>
+
+					<!-- ↓ 환영멘트 -->
+					<p class="cn_03"><img src="../images/ffeng/sb_ment_03.gif" alt="팜팜잉글리쉬는 방과후 학교 농어촌 영어 전래놀이 프로그램입니다." /></p>
+					<!-- ====================== End: 페이지별 개별처리 영역 ====================== -->
+
+					<div class="pageZone">
+<!-- ================================================= Str: 페이지별 개별내용영역 ================================================= -->
+
+<div class="fng01">
+	<div class="ACSbility_area">
+		<h3>FarmFarm English</h3>
+		<p>팜팜잉글리쉬는 방과후 학교 농어촌 영어 전래놀이 프로그램입니다.</p>
+	</div>
+</div>
+
+<!-- ===== Str: 게시판 목록영역 ===== -->
+<div class="bb01 bbsStyle ws04">
+	<span class="bg_lt"></span><!-- 좌측라운드이미지 -->
+	<span class="bg_gt"></span><!-- 우측라운드이미지 -->
+
+	<table class="bb_tb_01">
+		<colgroup>
+			<col width="10%" />
+			<col width="55%" />
+			<col width="10%" />
+			<col width="13%" />
+			<col width="12%" />
+		</colgroup>
+	
+		<thead>
+			<tr>
+				<th>번호</th>
+				<th>제목</th>
+				<th>작성자</th>
+				<th>날짜</th>
+				<th>조회수</th>
+			</tr>
+		</thead>
+	
+		<tbody>
+			<tr>
+				<td>100</td>
+				<td><a href="ffeng_03_read.html">아침밥먹기 설문조사 이벤트 당첨자 발표</a></td>
+				<td>김석민</td>
+				<td>2010.05.05</td>
+				<td>1234</td>
+			</tr>
+
+			<tr class="nodata">
+				<td colspan="5">자료가 없습니다.</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<!-- 하단 마침줄 -->
+	<div class="bg01_end"><span></span></div>
+</div>
+<!-- ===== End: 게시판 목록영역 ===== -->
+
+<!-- ===== Str: 게시판 페이징 영역 ===== -->
+<div class="bbPaz01">
+	<ul class="bbPaz01_ul">
+		<li><a href="#"><img src="../images/common/btns/paz_Ppre.gif" alt="이전 10개보기" /></a></li>
+		<li class="bplt"><a href="#"><img src="../images/common/btns/paz_pre.gif" alt="이전보기" /></a></li>
+
+		<li><strong>[1]</strong></li>
+		<li><a href="#">[2]</a></li>
+		<li><a href="#">[3]</a></li>
+		<li><a href="#">[4]</a></li>
+		<li><a href="#">[5]</a></li>
+		<li><a href="#">[6]</a></li>
+		<li><a href="#">[7]</a></li>
+		<li><a href="#">[8]</a></li>
+		<li><a href="#">[9]</a></li>
+		<li><a href="#">[10]</a></li>
+
+		<li class="bpgt"><a href="#"><img src="../images/common/btns/paz_next.gif" alt="다음보기" /></a></li>
+		<li><a href="#"><img src="../images/common/btns/paz_Nnext.gif" alt="다음 10개보기" /></a></li>
+	</ul>
+</div>
+<!-- ===== End: 게시판 페이징 영역 ===== -->
+
+<!-- ===== Str: 게시판 검색 영역 ===== -->
+<div class="bbSch01">
+	<span class="bbSch01_ltbg"></span><!-- 좌측 라운드이미지 -->
+
+	<div class="schArea">
+		<form method="post" action="#">
+			<fieldset>
+				<legend>검색양식</legend>
+
+				<select name="title" id="title" class="ww02">
+					<option>제목</option>
+				</select>
+
+				<input type="text" name="word" id="word" class="ww03 ws02" />
+
+				<input type="image" src="../images/common/btns/search.gif" alt="검색" class="ws03" />
+			</fieldset>
+		</form>
+	</div>
+</div>
+<!-- ===== End: 게시판 검색 영역 ===== -->
+<!-- ================================================= End: 페이지별 개별내용영역 ================================================= -->
+					</div>
+
+				</div>
+				<!-- End: content -->
+
+			</div>
+			<!-- End: colgroup -->
+
+			<!-- Str: aside -->
+			<div class="aside"><!-- 우측 영역 --></div>
+			<!-- End: aside -->
+
+
+			<div class="clearbh"></div>
+		</div>
+		<!-- End: container -->
+
+	</div>
+
+	<!-- Str: footer -->
+	<div id="footer">
+		<div class="footer_in">
+			<h3><a href="http://www.mifaff.go.kr/" target="_blank"><img src="../images/common/f_logo.gif" alt="농림수산식품부" /></a></h3>
+			
+			<!-- Str: 개인보호정책, 이메일무단수집거부, 웹마스터 이메일 -->
+			<p class="info"><img src="../images/common/copyright.gif" alt="" usemap="#copyrightImgMap" /></p>
+			<map name="copyrightImgMap" id="copyrightImgMap">
+				<area shape="rect" coords="0,1,140,37" alt="한국농촌경제연구원-농촌정보문화센터" />
+				<area shape="rect" coords="158,1,220,15" href="../etc/etc_02.html" alt="개인보호정책" />
+				<area shape="rect" coords="227,1,317,15" href="../etc/etc_03.html" alt="이메일무단수집거부" />
+				<area shape="rect" coords="525,19,623,36" href="mailto:webmaster@cric.re.kr" alt="webmaster@cric.re.kr" />
+			</map>
+			<!-- End: 개인보호정책, 이메일무단수집거부, 웹마스터 이메일 -->
+
+			<!-- 패밀리사이트 -->
+			<p class="fam"><img src="../images/common/f_fam.gif" alt="" /></p>
+		</div>
+	</div>
+	<!-- End: footer -->
+
+</div>
+</body>
+</html>

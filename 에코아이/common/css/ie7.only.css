@@ -1,0 +1,15 @@
+@charset "euc-kr";
+
+.main-gallerys .item ul,
+.lab-03-btn ul,
+.lab-01 .btns ul,
+.intro-02 ul.anchors,
+.etc-sitemap .topbox,
+.p-content-body .comp-info .source dl,
+.p-content-body .proc-case dd,
+.p-pics-explain .appr li,
+.p-pics-explain .summary,
+.p-content-head,
+.fac-prod-list ul,
+#container,
+#header .lnb ul{zoom:1;}

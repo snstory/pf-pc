@@ -1,0 +1,23 @@
+@charset "euc-kr";
+
+.bbs-head-2 dl,
+.bbs-head-2 h1,
+.bbs-gallery p a,
+.bbs-gallery p,
+.bbs-gallery ul,
+.bbs-head-1,
+#container,
+.bbs-comment-list li,
+.path li{zoom:1;}
+
+.content-text{height:370px;}
+.bbs-search .gt,
+.bbs-search .gtb{right:-1px;}
+
+.bbs-view-1{height:300px;}
+.bbs-comment-list li{height:30px;}
+.talk-question div{height:48px;}
+
+.bbs-head-2 h1 em.gt{right:-1px;}
+.bbs-head-2 h1 em.ltb{bottom:-1px;}
+.bbs-head-2 h1 em.gtb{right:-1px;bottom:-1px;}

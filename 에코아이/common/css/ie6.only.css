@@ -1,0 +1,26 @@
+@charset "euc-kr";
+
+.main-gallerys .item ul,
+.lab-03-btn ul,
+.lab-01 .btns ul,
+.intro-02 ul.anchors,
+.etc-sitemap .topbox,
+.p-content-body .comp-info .source dl,
+.p-content-body .proc-case dd,
+.p-pics-explain .appr li,
+.p-pics-explain .summary dd,
+.p-pics-explain .summary,
+.p-content-head,
+.fac-prod-list ul,
+#container,
+#header .lnb ul{zoom:1;}
+
+#container{height:830px;}
+
+#container .snb{position:relative;left:0px;}
+
+.p-content-body .icons-exp div{height:60px;}
+#p-header .crown{right:-1px;top:-1px;}
+
+.notice-01-view .content-info{height:200px;}
+.notice-prev-next .gt{right:-1px;}

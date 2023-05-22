@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<xbody>
+	<pics id="1">
+		<url>/talk/talk_02_04.asp?id=0000001</url>
+		<thumnail>/images/common/test_img/rolling_01_out.jpg</thumnail><!-- 썸네일 사진 -->
+		<real>/images/common/test_img/rolling_01_on.jpg</real><!-- 실제사진 -->
+		<name>현기찬1</name><!-- 이름 -->
+		<career>1</career><!-- 경력 (단위 : 년) -->
+		<birth>1971</birth><!-- 출생년도 -->
+	</pics>
+	<pics id="2">
+		<url>/talk/talk_02_04.asp?id=0000002</url>
+		<thumnail>/images/common/test_img/rolling_02_out.jpg</thumnail><!-- 썸네일 사진 -->
+		<real>/images/common/test_img/rolling_02_on.jpg</real><!-- 실제사진 -->
+		<name>현기찬2</name><!-- 이름 -->
+		<career>2</career><!-- 경력 (단위 : 년) -->
+		<birth>1972</birth><!-- 출생년도 -->
+	</pics>
+	<pics id="3">
+		<url>/talk/talk_02_04.asp?id=0000003</url>
+		<thumnail>/images/common/test_img/rolling_03_out.jpg</thumnail><!-- 썸네일 사진 -->
+		<real>/images/common/test_img/rolling_03_on.jpg</real><!-- 실제사진 -->
+		<name>현기찬3</name><!-- 이름 -->
+		<career>3</career><!-- 경력 (단위 : 년) -->
+		<birth>1973</birth><!-- 출생년도 -->
+	</pics>
+	<pics id="4">
+		<url>/talk/talk_02_04.asp?id=0000004</url>
+		<thumnail>/images/common/test_img/rolling_04_out.jpg</thumnail><!-- 썸네일 사진 -->
+		<real>/images/common/test_img/rolling_04_on.jpg</real><!-- 실제사진 -->
+		<name>현기찬4</name><!-- 이름 -->
+		<career>4</career><!-- 경력 (단위 : 년) -->
+		<birth>1974</birth><!-- 출생년도 -->
+	</pics>
+	<pics id="5">
+		<url>/talk/talk_02_04.asp?id=0000005</url>
+		<thumnail>/images/common/test_img/rolling_05_out.jpg</thumnail><!-- 썸네일 사진 -->
+		<real>/images/common/test_img/rolling_05_on.jpg</real><!-- 실제사진 -->
+		<name>현기찬5</name><!-- 이름 -->
+		<career>5</career><!-- 경력 (단위 : 년) -->
+		<birth>1975</birth><!-- 출생년도 -->
+	</pics>
+	<pics id="6">
+		<url>/talk/talk_02_04.asp?id=0000006</url>
+		<thumnail>/images/common/test_img/rolling_06_out.jpg</thumnail><!-- 썸네일 사진 -->
+		<real>/images/common/test_img/rolling_06_on.jpg</real><!-- 실제사진 -->
+		<name>현기찬6</name><!-- 이름 -->
+		<career>6</career><!-- 경력 (단위 : 년) -->
+		<birth>1976</birth><!-- 출생년도 -->
+	</pics>
+</xbody>

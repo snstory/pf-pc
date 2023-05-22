@@ -1,0 +1,33 @@
+@charset "euc-kr";
+
+#wrap{height:100%;}
+#snb{height:550px;}
+.colgroup{width:760px;}
+#colgroup-inner{margin:0 auto 0 31px;}
+.main_content_D{background-image:url("../../images/main/img_03.jpg");}
+
+.main_content_F a{}
+
+.lsts_4 li a:hover{text-decoration:underline;}
+.lsts_4 li{padding-right:15px;}
+.lsts_4 li a,
+.lsts_4 li a u,
+.lsts_4 li a i,
+.lsts_4 li a s{display:inline-block;}
+
+.dst_18_list li h1.qst,
+.dst_13 .list ul li,
+.dst_06 li,
+.dst_03 .list ul li,
+.bk_16 p,
+.bk_3_pazing{zoom:1;}
+
+.bk_12{height:230px;}
+
+.lsts_5 li{height:20px;}
+
+.dst_01{height:77px;}
+
+.dst_03 .view_info dl{height:30px;}
+
+.dst_18_list div.reply{height:80px;}

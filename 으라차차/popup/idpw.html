@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>으라차차 - 농수산식품 교수학습지원센터</title>
+<link rel="stylesheet" href="../css/content.css" type="text/css" media="all" />
+<!--[if (IE 5)|(IE 6)]>
+<link rel="stylesheet" href="../css/ie6.only.css" type="text/css" />
+<![endif]-->
+<script src="../js/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="../js/jquery.classfarm.ex-1.0.js" type="text/javascript"></script>
+<script src="../js/common.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="pop_wrap">
+	<div class="pop_wrap_in">
+		<!-- Str: pop_header -->
+		<div class="pop_header">
+			<h1><img src="../images/common/txt/pop_02.gif" alt="으라차차  아이디, 비밀번호 찾기" /></h1>
+			<a href="#" onclick="window.close(); return false;" class="close"><img src="../images/common/gab.gif" alt="닫기" /></a>
+		</div>
+		<!-- End: pop_header -->
+		
+		<!-- Str: pop_container -->
+		<div class="pop_container">
+			<div class="pop_pageZone">
+
+<!-- ================================================= Str: 내용영역 ================================================= -->
+<h2 class="pop_ment">
+	<span class="t1"><img src="../images/common/txt/pop_02_2.gif" alt="아이디, 비밀번호를 잊어버리셨나요? 회원님의 성명과 주민등록번호를 입력해 주세요." /></span>
+</h2>
+
+<div class="pop_content">
+	<div class="pop_01">
+		<span class="pop_01_tbg"></span><!-- 상단 라운드이미지 -->
+
+		<div class="pop_01_1">
+			<form method="post" action="idpw_ok.html">
+				<fieldset>
+					<legend>회원정보찾기 양식</legend>
+
+					<p class="area_1">
+						<label for="id" class="pop_ws1"><span class="ty2">성 명</span></label>
+						<input type="text" name="id" id="id" class="ws05 ww03" />
+					</p>
+
+					<p class="area_2">
+						<label for="jumin_1" class="pop_ws1"><span>주민등록번호</span></label>
+						<input type="text" name="jumin_1" id="jumin_1" class="ws05 ww25" />
+						-
+						<input type="password" name="jumin_2" id="jumin_2" class="ws05 ww25" />
+					</p>
+
+					<p class="area_3"><input type="image" src="../images/common/btns/find.gif" alt="찾기" /></p>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+
+</div>
+<!-- ================================================= End: 내용영역 ================================================= -->
+
+			</div>
+		</div>
+		<!-- End: pop_container -->
+	</div>
+</div>
+</body>
+</html>

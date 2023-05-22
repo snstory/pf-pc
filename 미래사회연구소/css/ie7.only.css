@@ -1,0 +1,15 @@
+@charset "euc-kr";
+
+/* bbs */
+.se_01{top:12px;}
+
+.ltgt_list li .t{top:6px;zoom:1;}
+.reply_gde input.btn{top:13px;}
+
+.reply_list li{zoom:1;}
+/* //bbs */
+
+/* table layout */
+tbody.ths_02 tr.files th{padding-top:12px;background-position:right 14px;}
+tbody.ths_02 tr.files td{padding-top:6px;padding-bottom:5px;}
+/* //table layout */

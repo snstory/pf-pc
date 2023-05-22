@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<xbody>
+	<section id="1">
+		<picURL>/images/common/test_img/story_02_01.jpg</picURL>
+		<fanURL>/teacher/teacher_02_list.asp?clubid=000011</fanURL>
+		<name><!-- 프로이름 -->1.김민경</name>
+		<birth><!-- 생년월일 -->1987년 01월 01일</birth>
+		<entyear><!-- 입회연도 -->2001년 01월</entyear>
+		<height><!-- 신장 -->170cm</height>
+		<parti_num><!-- 참가회수 -->1회</parti_num>
+		<vic_num><!-- 우승회수 -->0회</vic_num>
+		<rece_num><!-- 수령회수 -->14회</rece_num>
+		<prize><!-- 상금 -->￦1,000,000</prize>
+	</section>
+	<section id="2">
+		<picURL>/images/common/test_img/story_02_02.jpg</picURL>
+		<fanURL>/teacher/teacher_02_list.asp?clubid=000022</fanURL>
+		<name><!-- 프로이름 -->2.김민경</name>
+		<birth><!-- 생년월일 -->1987년 02월 02일</birth>
+		<entyear><!-- 입회연도 -->2002년 02월</entyear>
+		<height><!-- 신장 -->170cm</height>
+		<parti_num><!-- 참가회수 -->2회</parti_num>
+		<vic_num><!-- 우승회수 -->0회</vic_num>
+		<rece_num><!-- 수령회수 -->14회</rece_num>
+		<prize><!-- 상금 -->￦2,000,000</prize>
+	</section>
+	<section id="3">
+		<picURL>/images/common/test_img/story_02_03.jpg</picURL>
+		<fanURL>/teacher/teacher_02_list.asp?clubid=000033</fanURL>
+		<name><!-- 프로이름 -->3.김민경</name>
+		<birth><!-- 생년월일 -->1987년 03월 03일</birth>
+		<entyear><!-- 입회연도 -->2003년 03월</entyear>
+		<height><!-- 신장 -->170cm</height>
+		<parti_num><!-- 참가회수 -->3회</parti_num>
+		<vic_num><!-- 우승회수 -->0회</vic_num>
+		<rece_num><!-- 수령회수 -->14회</rece_num>
+		<prize><!-- 상금 -->￦3,000,000</prize>
+	</section>
+	<section id="4">
+		<picURL>/images/common/test_img/story_02_04.jpg</picURL>
+		<fanURL>/teacher/teacher_02_list.asp?clubid=000044</fanURL>
+		<name><!-- 프로이름 -->4.김민경</name>
+		<birth><!-- 생년월일 -->1987년 04월 04일</birth>
+		<entyear><!-- 입회연도 -->2004년 04월</entyear>
+		<height><!-- 신장 -->170cm</height>
+		<parti_num><!-- 참가회수 -->4회</parti_num>
+		<vic_num><!-- 우승회수 -->0회</vic_num>
+		<rece_num><!-- 수령회수 -->14회</rece_num>
+		<prize><!-- 상금 -->￦4,000,000</prize>
+	</section>
+	<section id="5">
+		<picURL>/images/common/test_img/story_02_05.jpg</picURL>
+		<fanURL>/teacher/teacher_02_list.asp?clubid=000055</fanURL>
+		<name><!-- 프로이름 -->5.김민경</name>
+		<birth><!-- 생년월일 -->1987년 05월 05일</birth>
+		<entyear><!-- 입회연도 -->2005년 05월</entyear>
+		<height><!-- 신장 -->170cm</height>
+		<parti_num><!-- 참가회수 -->5회</parti_num>
+		<vic_num><!-- 우승회수 -->0회</vic_num>
+		<rece_num><!-- 수령회수 -->14회</rece_num>
+		<prize><!-- 상금 -->￦5,000,000</prize>
+	</section>
+	<section id="6">
+		<picURL>/images/common/test_img/story_02_06.jpg</picURL>
+		<fanURL>/teacher/teacher_02_list.asp?clubid=000066</fanURL>
+		<name><!-- 프로이름 -->6.김민경</name>
+		<birth><!-- 생년월일 -->1987년 06월 06일</birth>
+		<entyear><!-- 입회연도 -->2006년 06월</entyear>
+		<height><!-- 신장 -->170cm</height>
+		<parti_num><!-- 참가회수 -->6회</parti_num>
+		<vic_num><!-- 우승회수 -->0회</vic_num>
+		<rece_num><!-- 수령회수 -->14회</rece_num>
+		<prize><!-- 상금 -->￦6,000,000</prize>
+	</section>
+	<section id="7">
+		<picURL>/images/common/test_img/story_02_07.jpg</picURL>
+		<fanURL>/teacher/teacher_02_list.asp?clubid=000077</fanURL>
+		<name><!-- 프로이름 -->7.김민경</name>
+		<birth><!-- 생년월일 -->1987년 07월 07일</birth>
+		<entyear><!-- 입회연도 -->2007년 07월</entyear>
+		<height><!-- 신장 -->170cm</height>
+		<parti_num><!-- 참가회수 -->7회</parti_num>
+		<vic_num><!-- 우승회수 -->0회</vic_num>
+		<rece_num><!-- 수령회수 -->14회</rece_num>
+		<prize><!-- 상금 -->￦7,000,000</prize>
+	</section>
+	<section id="8">
+		<picURL>/images/common/test_img/story_02_08.jpg</picURL>
+		<fanURL>/teacher/teacher_02_list.asp?clubid=000088</fanURL>
+		<name><!-- 프로이름 -->8.김민경</name>
+		<birth><!-- 생년월일 -->1987년 08월 08일</birth>
+		<entyear><!-- 입회연도 -->2008년 08월</entyear>
+		<height><!-- 신장 -->170cm</height>
+		<parti_num><!-- 참가회수 -->8회</parti_num>
+		<vic_num><!-- 우승회수 -->0회</vic_num>
+		<rece_num><!-- 수령회수 -->14회</rece_num>
+		<prize><!-- 상금 -->￦8,000,000</prize>
+	</section>
+</xbody>

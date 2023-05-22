@@ -1,0 +1,344 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>으라차차 - 농수산식품 교수학습지원센터</title>
+<link rel="stylesheet" href="../css/content.css" type="text/css" media="all" />
+<!--[if (IE 5)|(IE 6)]>
+<link rel="stylesheet" href="../css/ie6.only.css" type="text/css" />
+<![endif]-->
+<script src="../js/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="../js/jquery.classfarm.ex-1.0.js" type="text/javascript"></script>
+<script src="../js/common.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="wrap">
+
+	<div class="wrap_in">
+
+		<!-- ========== Str: 퀵메뉴 ========== -->
+		<div class="quickmenu" id="quickmenuElement"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="62px" height="333px">
+			<!-- <param name="movie" value="../flash/quickmenu.swf" /> -->
+			<param name="movie" value="../flash/quickmenu.gif" />
+			<param name="allowScriptAccess" value="sameDomain" />
+			<param name="flashvars" value="" />
+			<param name="loop" value="false" />
+			<param name="menu" value="false" />
+			<param name="quality" value="high" />
+			<param name="scale" value="noscale" />
+			<param name="bgcolor" value="#ffffff" />
+			<param name="wmode" value="transparent" />
+	
+			<!--[if !IE]> <-->
+			<object type="application/x-shockwave-flash" data="../flash/quickmenu.swf" width="62px" height="333px">
+				<param name="wmode" value="transparent" />
+				<p><img src="../flash/quickmenu.gif" width="62" height="333" alt="" /></p>
+			</object>
+			<!--> <![endif]-->
+		</object></div>
+		<!-- ========== End: 퀵메뉴 ========== -->
+
+		<!-- Str: header -->
+		<div id="header">
+			<!-- hd_logo -->
+			<h1 class="hd_logo"><a href="../main/main.html"><img src="../images/common/logo.gif" alt="으라차차 - 농수산식품 교수학습지원센터" /></a></h1>
+			
+			<!-- hd_gnb -->
+			<div class="hd_gnb">
+				<ul>
+					<li><a href="../intro/intro_01.html"><img src="../images/common/btns/gnb_01.gif" alt="으라차차 소개" /></a></li>
+					<li class="bar"><img src="../images/common/icons/bar_01.gif" alt="" /></li>
+					<li><a href="../intro/intro_02.html"><img src="../images/common/btns/gnb_02.gif" alt="공지사항" /></a></li>
+					<li class="bar"><img src="../images/common/icons/bar_01.gif" alt="" /></li>
+					<li><a href="../intro/intro_03.html"><img src="../images/common/btns/gnb_03.gif" alt="찾아오시는 길" /></a></li>
+					<li class="bar"><img src="../images/common/icons/bar_01.gif" alt="" /></li>
+					<li><a href="../mypage/mypage_01.html"><img src="../images/common/btns/gnb_04.gif" alt="마이페이지" /></a></li>
+					<li class="bar"><img src="../images/common/icons/bar_01.gif" alt="" /></li>
+					<li><a href="../member/member_01.html"><img src="../images/common/btns/gnb_05.gif" alt="회원가입" /></a></li>
+					<li class="bar"><img src="../images/common/icons/bar_01.gif" alt="" /></li>
+					<li><a href="../etc/etc_04.html"><img src="../images/common/btns/gnb_06.gif" alt="사이트맵" /></a></li>
+				</ul>
+
+				<!-- Str: hd_search -->
+				<div class="hd_search">
+					<span><img src="../images/common/bg/bg_02_lt.gif" alt="" /></span>
+					<div class="sch_form">
+
+						<form method="post" action="#">
+							<fieldset>
+								<legend>통합검색</legend>
+
+								<input type="text" name="search" id="search" class="inp01" />
+								<input type="image" src="../images/common/btns/go.gif" class="inp02" alt="검색" />
+							</fieldset>
+						</form>
+
+					</div>
+				</div>
+				<!-- End: hd_search -->
+
+			</div>
+
+			<!-- hd_lnb -->
+			<div class="hd_lnb"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="726px" height="63px">
+				<!-- <param name="movie" value="../flash/navi.swf" /> -->
+				<param name="movie" value="../flash/navi.gif" />
+				<param name="allowScriptAccess" value="sameDomain" />
+				<param name="flashvars" value="" />
+				<param name="loop" value="false" />
+				<param name="menu" value="false" />
+				<param name="quality" value="high" />
+				<param name="scale" value="noscale" />
+				<param name="bgcolor" value="#ffffff" />
+				<param name="wmode" value="transparent" />
+				
+				<!--[if !IE]> <-->
+				<object type="application/x-shockwave-flash" data="../flash/navi.swf" width="726px" height="63px">
+					<param name="wmode" value="transparent" />
+					<p><img src="../flash/navi.gif" width="726" height="63" alt="" usemap="#navImgMap" /></p>
+					<map name="navImgMap" id="navImgMap">
+						<area shape="rect" coords="32,3,143,42" href="../life/life_01.html" alt="식생활 교육자료" />
+						<area shape="rect" coords="148,4,261,42" href="../farm/farm_01.html" alt="농어촌 체험정보" />
+						<area shape="rect" coords="268,5,375,43" href="../teacher/teacher_01.html" alt="선생님 커뮤니티" />
+						<area shape="rect" coords="383,6,494,42" href="../edu/edu_01.html" alt="농어촌 교육자료" />
+						<area shape="rect" coords="501,7,600,42" href="../kid/kid_01.html" alt="어린이 놀이방" />
+						<area shape="rect" coords="605,8,723,42" href="../know/know_01.html" alt="농어촌 Q&amp;A" />
+					</map>
+				</object>
+				<!--> <![endif]-->
+			</object></div>
+
+		</div>
+		<!-- End: header -->
+
+		<!-- Str: container -->
+		<div id="container">
+
+			<!-- Str: colgroup -->
+			<div class="colgroup">
+
+				<!-- Str: snb -->
+				<div class="snb">
+				<!-- ====================== Str: 왼쪽메뉴영역 ====================== -->
+
+					<!-- == Str: 마이페이지 == -->
+					<!-- ↓ 폴더별 타이틀 -->
+					<h2 class="sb_title"><img src="../images/mypage/title_01.gif" alt="마이페이지" /></h2>
+
+					<div class="sb_menulist" sbno="2">
+						<ul>
+							<!-- Str: 폴더별 왼쪽메뉴 -->
+							<li><a href="../mypage/mypage_01.html"><img src="../images/mypage/lt_01_off.gif" alt="스크랩" /></a></li>
+							<li><a href="../mypage/mypage_02.html"><img src="../images/mypage/lt_02_off.gif" alt="회원정보수정" /></a></li>
+							<!-- End: 폴더별 왼쪽메뉴 -->
+
+							<!-- ↓ 폴더별 왼쪽메뉴 하단 이미지 -->
+							<li class="btm"><img src="../images/mypage/lt_btm.gif" alt="" /></li>
+						</ul>
+					</div>
+					<!-- == End: 마이페이지 == -->
+
+				<!-- ====================== End: 왼쪽메뉴영역 ====================== -->
+				</div>
+				<!-- End: snb -->
+
+				<!-- Str: content -->
+				<div class="sb_content">
+
+					<!-- ====================== Str: 페이지별 개별처리 영역 ====================== -->
+					<div class="cn_01">
+						<h2><img src="../images/mypage/sb_title_02.gif" alt="회원정보수정" /></h2>
+
+						<p class="cn_02">
+							<a href="../main/main.html">Home</a>
+							<a href="../mypage/mypage_01.html" class="cen">마이페이지</a>
+							<strong>회원정보수정</strong>
+						</p>
+					</div>
+
+					<!-- ↓ 환영멘트 -->
+					<p class="cn_03"><img src="../images/mypage/sb_ment_01.gif" alt="안녕하십니까? 으라차차 사이트에 오신 것을 환영합니다." /></p>
+					<!-- ====================== End: 페이지별 개별처리 영역 ====================== -->
+
+					<div class="pageZone">
+<!-- ================================================= Str: 페이지별 개별내용영역 ================================================= -->
+<!-- ↓ 상단 라운드 이미지 -->
+<p class="mm02_1"></p>
+
+<form method="post" action="#">
+	<fieldset>
+		<legend>개인정보 수정 양식</legend>
+
+		<div class="mm02">
+			<div class="mm02_3">
+
+				<h3 class="ws10"><img src="../images/member/txt_04_2.gif" alt="아이디(id)" /></h3>
+				<table class="mm02_tb">
+					<colgroup>
+						<col width="28%" />
+						<col width="72%" />
+					</colgroup>
+
+					<tbody>
+						<tr>
+							<th><div class="mm02_bgdv ws13_1"><span></span><strong>아이디(id)</strong></div></th>
+							<td>dreamfire</td>
+						</tr>
+						<tr>
+							<th><div class="mm02_bgdv ws13_1"><span></span><label for="pw">비밀번호</label></div></th>
+							<td>
+								<input type="password" name="pw" id="pw" class="ww16 ws02" />
+								<br /><span class="mm04_ment">숫자, 영 소문자 혼합 6~20자 이내</span>
+							</td>
+						</tr>
+						<tr>
+							<th><div class="mm02_bgdv"><span></span><label for="pw_re">비밀번호확인</label></div></th>
+							<td><input type="password" name="pw_re" id="pw_re" class="ww16 ws02" /></td>
+						</tr>
+					</tbody>
+				</table>
+
+				<h3 class="ws12_2"><img src="../images/member/txt_05.gif" alt="개인정보" /></h3>
+				<table class="mm02_tb">
+					<colgroup>
+						<col width="28%" />
+						<col width="72%" />
+					</colgroup>
+
+					<tbody>
+						<tr>
+							<th><div class="mm02_bgdv"><span></span><label for="">이름(한글)</label></div></th>
+							<td>홍길동</td>
+						</tr>
+						<tr>
+							<th><div class="mm02_bgdv"><span></span><label for="">주민등록번호</label></div></th>
+							<td>123123 - 1231234</td>
+						</tr>
+						<tr>
+							<th><div class="mm02_bgdv"><span></span><label for="">성별</label></div></th>
+							<td>남자</td>
+						</tr>
+						<tr>
+							<th><div class="mm02_bgdv ws13_2"><span></span><label for="pcs_1">연락처</label></div></th>
+							<td>
+								<ul class="mm04_ul">
+									<li>
+										<span>휴 대 폰</span>
+										<input type="text" name="pcs_1" id="pcs_1" class="ww18 ws02" /> -
+										<input type="text" name="pcs_2" id="pcs_2" class="ww18 ws02" /> -
+										<input type="text" name="pcs_3" id="pcs_3" class="ww18 ws02" />
+									</li>
+									<li>
+										<span>전화번호</span>
+										<input type="text" name="tel_1" id="tel_1" class="ww18 ws02" /> -
+										<input type="text" name="tel_2" id="tel_2" class="ww18 ws02" /> -
+										<input type="text" name="tel_3" id="tel_3" class="ww18 ws02" />
+									</li>
+								</ul>
+								<span class="mm04_ment">휴대폰과 전화번호중 하나만 입력하셔도 됩니다.</span>
+							</td>
+						</tr>
+						<tr>
+							<th><div class="mm02_bgdv ws13_3"><span></span><label for="zip_1">주소</label></div></th>
+							<td>
+								<ul class="mm04_ul">
+									<li>
+										<input type="text" name="zip_1" id="zip_1" class="ww18 ws02" /> -
+										<input type="text" name="zip_2" id="zip_2" class="ww18 ws02" />
+										<a href="#"><img src="../images/common/btns/zipcode.gif" alt="우편번호찾기" /></a>
+									</li>
+									<li><input type="text" name="zip_3" id="zip_3" class="ww19 ws02" /></li>
+								</ul>
+								
+							</td>
+						</tr>
+						<tr>
+							<th><div class="mm02_bgdv ws13_3"><span></span><label for="email_1">이메일</label></div></th>
+							<td>
+								<input type="text" name="email_1" id="email_1" class="ww20 ws02" /> ＠
+								<input type="text" name="email_2" id="email_2" class="ww20 ws02" />
+								<br /><span class="mm04_ment">비밀번호 분실 시 임시번호 발급 및 본인확인용으로 사용되오니<br />사용 가능한 메일을 정확히 입력하시기 바랍니다.</span>
+							</td>
+						</tr>
+						<tr>
+							<th><div class="mm02_bgdv"><span></span><label for="infomail_1">정보메일</label></div></th>
+							<td>
+								<ul class="mm04_ul_2">
+									<li><input type="radio" name="infomail" id="infomail_1" /><label for="infomail_1">수신함</label></li>
+									<li><input type="radio" name="infomail" id="infomail_2" /><label for="infomail_2">수신안함</label></li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<th><div class="mm02_bgdv"><span></span><strong>가입경로</strong></div></th>
+							<td>인터넷검색 및 광고</td>
+						</tr>
+						<tr class="nobg">
+							<th><div class="mm03_bgdv"><span></span><strong class="ws15">현재 나의 포인트</strong></div></th>
+							<td><input type="text" name="" id="" class="ww23 ws02" value="100000" readonly="readonly" /> <span class="ws16">Point</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<!-- ↓ 하단 라운드 이미지 -->
+		<p class="mm02_2"></p>
+
+		<!-- ===== Str: 버튼링크 영역 ===== -->
+		<div class="bb_btn_01">
+			<input type="image" src="../images/common/btns/change.gif" alt="변경" />
+			<a href="#"><img src="../images/common/btns/cancle.gif" alt="취소" /></a>
+		</div>
+		<!-- ===== End: 버튼링크 영역 ===== -->
+	</fieldset>
+</form>
+
+<!-- ================================================= End: 페이지별 개별내용영역 ================================================= -->
+					</div>
+
+				</div>
+				<!-- End: content -->
+
+			</div>
+			<!-- End: colgroup -->
+
+			<!-- Str: aside -->
+			<div class="aside"><!-- 우측 영역 --></div>
+			<!-- End: aside -->
+
+
+			<div class="clearbh"></div>
+		</div>
+		<!-- End: container -->
+
+	</div>
+
+	<!-- Str: footer -->
+	<div id="footer">
+		<div class="footer_in">
+			<h3><a href="http://www.mifaff.go.kr/" target="_blank"><img src="../images/common/f_logo.gif" alt="농림수산식품부" /></a></h3>
+			
+			<!-- Str: 개인보호정책, 이메일무단수집거부, 웹마스터 이메일 -->
+			<p class="info"><img src="../images/common/copyright.gif" alt="" usemap="#copyrightImgMap" /></p>
+			<map name="copyrightImgMap" id="copyrightImgMap">
+				<area shape="rect" coords="0,1,140,37" alt="한국농촌경제연구원-농촌정보문화센터" />
+				<area shape="rect" coords="158,1,220,15" href="../etc/etc_02.html" alt="개인보호정책" />
+				<area shape="rect" coords="227,1,317,15" href="../etc/etc_03.html" alt="이메일무단수집거부" />
+				<area shape="rect" coords="525,19,623,36" href="mailto:webmaster@cric.re.kr" alt="webmaster@cric.re.kr" />
+			</map>
+			<!-- End: 개인보호정책, 이메일무단수집거부, 웹마스터 이메일 -->
+
+			<!-- 패밀리사이트 -->
+			<p class="fam"><img src="../images/common/f_fam.gif" alt="" /></p>
+		</div>
+	</div>
+	<!-- End: footer -->
+
+</div>
+</body>
+</html>

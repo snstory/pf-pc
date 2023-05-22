@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>으라차차 - 농수산식품 교수학습지원센터</title>
+<link rel="stylesheet" href="../css/content.css" type="text/css" media="all" />
+<!--[if (IE 5)|(IE 6)]>
+<link rel="stylesheet" href="../css/ie6.only.css" type="text/css" />
+<![endif]-->
+<script src="../js/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="../js/jquery.classfarm.ex-1.0.js" type="text/javascript"></script>
+<script src="../js/common.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+window.onload = function() {
+	if (! opener){ return false; }
+	var opDiv = opener.document.getElementsByTagName("DIV");
+	var fnDiv = "";
+	var foxArray = [];
+
+	$.each(opDiv, function(idx, elem) {
+		if ($(elem).attr("className") == "pageZone"){
+			fnDiv = elem;
+			return;
+		}
+	});
+
+	$("#printContent").html($(fnDiv).html()).css({
+		margin: "0 auto",
+		width: $(fnDiv).innerWidth() + "px"
+	}).find(".fm01").hide().end().find(".bb_btn_01").hide();
+
+	$(fnDiv).find("input[type=text]").each(function(idx, elem) {
+		foxArray[this.id] = $(this).val();
+	});
+
+	$("input[type=text]").each(function(idx, elem) {
+		var pa = $(this).parent();
+		pa.html(foxArray[$(this).attr("id")]);
+		$(this).hide();
+	});
+
+	$("th > a > img").filter(function() {
+		return this.src.indexOf("life_chk.gif") != -1;
+	}).each(function(n) {
+		var th = $(this).parents("th")[0];
+		$(th).html('<div class="mm02_bgdv"><span></span><strong>식생활 점수</strong></div>');
+	});
+
+	$("td.ws19").each(function(idx, elem) {
+		$(this).removeClass("ws19").html($(this).text() + " 점");
+	})
+
+	window.print();
+}
+//]]>
+</script>
+
+</head>
+
+<body>
+<div id="printContent"></div>
+</body>
+</html>
